@@ -1,5 +1,6 @@
 //importing React for the functional component and {Component} for the class component
 import React, { Component } from 'react';
+import './Header.css';
 
 //Functional Component
 const Header = function() {
