@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import './Header.css';
 
 //Functional Component
-const Header = function() {
+const Header = function(props) {
     return (
         <div className="Header">
-          Phone Directory
+          {props.heading}
         </div>
     );
 }
